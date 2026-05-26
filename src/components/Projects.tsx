@@ -1,6 +1,12 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { ExternalLink, Github, FolderGit2 } from 'lucide-react';
+import { ExternalLink, FolderGit2 } from 'lucide-react';
+
+const GitHubIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.164 6.839 9.489.5.092.682-.217.682-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.454-1.155-1.11-1.47-1.11-1.47-.908-.62.069-.608.069-.608 1.205.084 1.531 1.03 1.531 1.03.896 1.53 2.343 1.088 2.91.832-.554.896-.674 2.11-.292 3.272 0 0 .255.482.822-.151a7.09 7.09 0 0 0 2.225-3.133c0 0 .255-.151.822.151C19.138 19.165 22 17.653 22 12c0-5.523-4.477-10-10-10z"/>
+  </svg>
+);
 
 const projects = [
   {
@@ -104,7 +110,7 @@ export function Projects() {
                 
                 <div className="flex items-center gap-4 pt-4 border-t border-white/10">
                   <a href={project.links.github} className="flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors">
-                    <Github className="w-4 h-4" /> Code
+                    <GitHubIcon className="w-4 h-4" /> Code
                   </a>
                   <a href={project.links.live} className="flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors">
                     <ExternalLink className="w-4 h-4" /> Live Demo

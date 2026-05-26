@@ -1,6 +1,18 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, ArrowRight, Terminal, Sparkles } from 'lucide-react';
+import { Mail, ArrowRight, Terminal, Sparkles } from 'lucide-react';
 import { SplineScene } from './ui/splite';
+
+const GitHubIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.164 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.373-3.661-1.09-3.661-1.09-.454-1.155-1.11-1.47-1.11-1.47-.908-.62.069-.608.069-.608 1.205.084 1.531 1.03 1.531 1.03.896 1.53 2.343 1.088 2.91.832-.554.896-.674 2.11-.292 3.272 0 0 .255.482.822-.151a7.09 7.09 0 0 0 2.225-3.133c0 0 .255-.151.822.151C19.138 19.165 22 17.653 22 12c0-5.523-4.477-10-10-10z"/>
+  </svg>
+);
+
+const LinkedInIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.268c-.966 0-1.718-.756-1.718-1.732s.753-1.732 1.72-1.732c.965 0 1.718.756 1.718 1.732s-.753 1.732-1.72 1.732zm13.5 10.268h-3v-4.5c0-1.078-.02-2.472-1.504-2.472-1.504 0-1.735 1.172-1.735 2.388v4.588h-3v-9h2.881v1.233h.041c.2-.396.693-1.004 1.548-1.004 1.602 0 1.949.996 1.949 2.338v5.428z"/>
+  </svg>
+);
 
 export function Hero() {
   return (
@@ -71,8 +83,8 @@ export function Hero() {
               transition={{ duration: 1, delay: 0.8 }}
               className="flex items-center gap-6 text-muted-foreground"
             >
-              <a href="https://github.com/viratcore01" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Github className="w-5 h-5" /></a>
-              <a href="https://www.linkedin.com/in/virat-shishodia-58349a367/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Linkedin className="w-5 h-5" /></a>
+              <a href="https://github.com/viratcore01" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><GitHubIcon className="w-5 h-5" /></a>
+              <a href="https://www.linkedin.com/in/virat-shishodia-58349a367/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><LinkedInIcon className="w-5 h-5" /></a>
               <a href="mailto:viratcore01@gmail.com" className="hover:text-white transition-colors"><Mail className="w-5 h-5" /></a>
             </motion.div>
           </div>
