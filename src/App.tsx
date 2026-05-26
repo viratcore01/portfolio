@@ -8,12 +8,10 @@ import { Footer } from './components/Footer';
 import { CustomCursor } from './components/CustomCursor';
 import { useSmoothScroll } from './hooks/useSmoothScroll';
 import { motion, AnimatePresence } from 'framer-motion';
-import DemoOne from './components/ui/demo';
 
 function App() {
   useSmoothScroll();
   const [loading, setLoading] = useState(true);
-  const [currentView, setCurrentView] = useState<'portfolio' | 'shaders'>('portfolio');
 
   useEffect(() => {
     // Simulate loading screen
@@ -49,49 +47,17 @@ function App() {
       </AnimatePresence>
 
       <div className="min-h-screen bg-background text-foreground selection:bg-primary/30">
-        {currentView === 'portfolio' ? (
-          <>
-            <Navbar />
-            <main>
-              <Hero />
-              <Skills />
-              <Projects />
-              <Contact />
-            </main>
-            <Footer />
-          </>
-        ) : (
-          <DemoOne />
-        )}
-
-        {/* Floating View Switcher */}
-        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 bg-black/60 backdrop-blur-md border border-white/10 rounded-full p-1.5 flex gap-1 shadow-2xl">
-          <button
-            onClick={() => setCurrentView('portfolio')}
-            className={`px-4 py-1.5 rounded-full text-[10px] font-mono tracking-widest transition-all uppercase ${
-              currentView === 'portfolio'
-                ? 'bg-white text-black font-semibold'
-                : 'text-white/50 hover:text-white hover:bg-white/5'
-            }`}
-          >
-            Portfolio
-          </button>
-          <button
-            onClick={() => setCurrentView('shaders')}
-            className={`px-4 py-1.5 rounded-full text-[10px] font-mono tracking-widest transition-all uppercase flex items-center gap-1.5 ${
-              currentView === 'shaders'
-                ? 'bg-white text-black font-semibold'
-                : 'text-white/50 hover:text-white hover:bg-white/5'
-            }`}
-          >
-            <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
-            Shader Sandbox
-          </button>
-        </div>
+        <Navbar />
+        <main>
+          <Hero />
+          <Skills />
+          <Projects />
+          <Contact />
+        </main>
+        <Footer />
       </div>
     </>
   );
 }
 
 export default App;
-
