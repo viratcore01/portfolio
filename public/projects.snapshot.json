@@ -8,6 +8,15 @@
   },
   "projects": [
     {
+      "name": "portfolio",
+      "url": "https://github.com/viratcore01/portfolio",
+      "description": null,
+      "homepage": "https://portfolio-delta-peach-12.vercel.app",
+      "language": "TypeScript",
+      "stars": 0,
+      "pushed_at": "2026-10-08T08:07:03Z"
+    },
+    {
       "name": "GharYaad",
       "url": "https://github.com/viratcore01/GharYaad",
       "description": null,
@@ -105,15 +114,6 @@
       "language": null,
       "stars": 0,
       "pushed_at": "2026-06-16T17:50:48Z"
-    },
-    {
-      "name": "portfolio",
-      "url": "https://github.com/viratcore01/portfolio",
-      "description": null,
-      "homepage": "https://portfolio-delta-peach-12.vercel.app",
-      "language": "TypeScript",
-      "stars": 0,
-      "pushed_at": "2026-05-26T14:29:11Z"
     },
     {
       "name": "advocate",
