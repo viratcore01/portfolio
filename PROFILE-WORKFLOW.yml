@@ -1,0 +1,53 @@
+# ─── Copy this file to viratcore01/viratcore01/.github/workflows/update-readme.yml ───
+# It keeps your PROFILE readme's project table fresh every day + on demand.
+name: Sync profile README
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Rebuild project table
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node -e "
+          const USER='viratcore01';
+          const h={Accept:'application/vnd.github+json','User-Agent':'profile-readme-bot',Authorization:'Bearer '+process.env.GITHUB_TOKEN};
+          const ago=(iso)=>{const s=(Date.now()-+new Date(iso))/1000;if(s<3600)return Math.max(1,Math.floor(s/60))+'m ago';if(s<86400)return Math.floor(s/3600)+'h ago';const d=Math.floor(s/86400);return d<30?d+'d ago':Math.floor(d/30)+'mo ago';};
+          const pretty=(n)=>n.replace(/[-_]+/g,' ').replace(/([a-z])([A-Z])/g,'\$1 \$2').trim().replace(/\b\w/g,c=>c.toUpperCase());
+          (async()=>{
+            const fs=await import('node:fs');
+            const [me,repos]=await Promise.all([
+              fetch('https://api.github.com/users/'+USER,{headers:h}).then(r=>r.json()),
+              fetch('https://api.github.com/users/'+USER+'/repos?sort=updated&per_page=100',{headers:h}).then(r=>r.json())
+            ]);
+            const rows=repos.filter(r=>!r.fork&&!r.archived&&r.name!=='viratcore01')
+              .sort((a,b)=>+new Date(b.pushed_at)-+new Date(a.pushed_at))
+              .map(r=>{const demo=r.homepage?.trim()?' · [Live]('+r.homepage.trim()+')':'';const lang=r.language?' \`'+r.language+'\`':'';const d=((r.description||'Shipped & live — see repo.').replace(/\n/g,' ').slice(0,140));return '| ['+pretty(r.name)+']('+r.html_url+') | '+d+' |'+lang+' | ⭐ '+r.stargazers_count+' | '+ago(r.pushed_at)+' | [Code]('+r.html_url+')'+demo+' |';}).join('\n');
+            const day=new Date().toISOString().slice(0,10);
+            const table='| Project | What it is | Stack | Stars | Activity | Links |\n|---|---|---|---|---|---|\n'+rows+'\n\n> 🔄 Auto-synced '+day+' — '+repos.length+' repos tracked.';
+            let md=fs.readFileSync('README.md','utf8');
+            md=md.replace(/<!-- PROJECTS:START -->[\s\S]*?<!-- PROJECTS:END -->/, '<!-- PROJECTS:START -->\n'+table+'\n<!-- PROJECTS:END -->');
+            fs.writeFileSync('README.md',md);
+            console.log('profile README synced');
+          })();
+          "
+      - name: Commit if changed
+        run: |
+          git config user.name "readme-bot"
+          git config user.email "readme-bot@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: auto-sync profile README [skip ci]"
+          git push

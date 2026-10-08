@@ -1,0 +1,200 @@
+{
+  "updated": "2026-10-08",
+  "username": "viratcore01",
+  "stats": {
+    "repos": 22,
+    "stars": 1,
+    "followers": 3
+  },
+  "projects": [
+    {
+      "name": "GharYaad",
+      "url": "https://github.com/viratcore01/GharYaad",
+      "description": null,
+      "homepage": "https://gharyaad.vercel.app",
+      "language": "JavaScript",
+      "stars": 0,
+      "pushed_at": "2026-10-04T07:50:10Z"
+    },
+    {
+      "name": "DAM",
+      "url": "https://github.com/viratcore01/DAM",
+      "description": null,
+      "homepage": "https://dam-weld.vercel.app",
+      "language": "TypeScript",
+      "stars": 0,
+      "pushed_at": "2026-09-02T12:03:51Z"
+    },
+    {
+      "name": "STOIC_SAP",
+      "url": "https://github.com/viratcore01/STOIC_SAP",
+      "description": null,
+      "homepage": null,
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2026-08-31T10:21:21Z"
+    },
+    {
+      "name": "handson",
+      "url": "https://github.com/viratcore01/handson",
+      "description": null,
+      "homepage": null,
+      "language": "JavaScript",
+      "stars": 0,
+      "pushed_at": "2026-08-22T21:55:01Z"
+    },
+    {
+      "name": "handwriting-",
+      "url": "https://github.com/viratcore01/handwriting-",
+      "description": null,
+      "homepage": "https://handwriting-green.vercel.app",
+      "language": "JavaScript",
+      "stars": 1,
+      "pushed_at": "2026-08-22T15:59:55Z"
+    },
+    {
+      "name": "EchoVault",
+      "url": "https://github.com/viratcore01/EchoVault",
+      "description": null,
+      "homepage": "https://echo-vault-three.vercel.app",
+      "language": "TypeScript",
+      "stars": 0,
+      "pushed_at": "2026-08-11T10:19:40Z"
+    },
+    {
+      "name": "virasat",
+      "url": "https://github.com/viratcore01/virasat",
+      "description": null,
+      "homepage": "https://virasat-theta.vercel.app",
+      "language": "TypeScript",
+      "stars": 0,
+      "pushed_at": "2026-08-06T08:15:11Z"
+    },
+    {
+      "name": "dummy-browser",
+      "url": "https://github.com/viratcore01/dummy-browser",
+      "description": null,
+      "homepage": "https://dummy-browser.vercel.app",
+      "language": "TypeScript",
+      "stars": 0,
+      "pushed_at": "2026-07-17T19:23:11Z"
+    },
+    {
+      "name": "fakenews",
+      "url": "https://github.com/viratcore01/fakenews",
+      "description": null,
+      "homepage": "https://fakenews-teal.vercel.app",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2026-07-12T07:28:00Z"
+    },
+    {
+      "name": "myreadme",
+      "url": "https://github.com/viratcore01/myreadme",
+      "description": null,
+      "homepage": null,
+      "language": null,
+      "stars": 0,
+      "pushed_at": "2026-07-08T14:58:46Z"
+    },
+    {
+      "name": "House-price-prediction",
+      "url": "https://github.com/viratcore01/House-price-prediction",
+      "description": null,
+      "homepage": null,
+      "language": null,
+      "stars": 0,
+      "pushed_at": "2026-06-16T17:50:48Z"
+    },
+    {
+      "name": "portfolio",
+      "url": "https://github.com/viratcore01/portfolio",
+      "description": null,
+      "homepage": "https://portfolio-delta-peach-12.vercel.app",
+      "language": "TypeScript",
+      "stars": 0,
+      "pushed_at": "2026-05-26T14:29:11Z"
+    },
+    {
+      "name": "advocate",
+      "url": "https://github.com/viratcore01/advocate",
+      "description": null,
+      "homepage": "https://advocate-seven-theta.vercel.app",
+      "language": "HTML",
+      "stars": 0,
+      "pushed_at": "2026-05-01T06:47:54Z"
+    },
+    {
+      "name": "cake",
+      "url": "https://github.com/viratcore01/cake",
+      "description": null,
+      "homepage": "https://cake-seven-psi.vercel.app",
+      "language": "TypeScript",
+      "stars": 0,
+      "pushed_at": "2026-04-25T16:29:24Z"
+    },
+    {
+      "name": "jeep",
+      "url": "https://github.com/viratcore01/jeep",
+      "description": null,
+      "homepage": "https://jeep-pi.vercel.app",
+      "language": "TypeScript",
+      "stars": 0,
+      "pushed_at": "2026-04-24T15:50:23Z"
+    },
+    {
+      "name": "crisis-app",
+      "url": "https://github.com/viratcore01/crisis-app",
+      "description": null,
+      "homepage": "https://crisis-app-nine.vercel.app",
+      "language": "TypeScript",
+      "stars": 0,
+      "pushed_at": "2026-03-28T09:14:04Z"
+    },
+    {
+      "name": "Energy-marketplace",
+      "url": "https://github.com/viratcore01/Energy-marketplace",
+      "description": null,
+      "homepage": null,
+      "language": "JavaScript",
+      "stars": 0,
+      "pushed_at": "2026-02-28T18:08:47Z"
+    },
+    {
+      "name": "ApexVelocity",
+      "url": "https://github.com/viratcore01/ApexVelocity",
+      "description": null,
+      "homepage": "https://hh-ten-iota.vercel.app",
+      "language": "TypeScript",
+      "stars": 0,
+      "pushed_at": "2026-02-27T14:05:44Z"
+    },
+    {
+      "name": "madiral",
+      "url": "https://github.com/viratcore01/madiral",
+      "description": null,
+      "homepage": "https://madiral.vercel.app",
+      "language": "TypeScript",
+      "stars": 0,
+      "pushed_at": "2026-01-18T09:40:23Z"
+    },
+    {
+      "name": "comla",
+      "url": "https://github.com/viratcore01/comla",
+      "description": null,
+      "homepage": "https://comla.vercel.app",
+      "language": "JavaScript",
+      "stars": 0,
+      "pushed_at": "2025-10-24T13:12:23Z"
+    },
+    {
+      "name": "Unrevel",
+      "url": "https://github.com/viratcore01/Unrevel",
+      "description": "A modern travel companion app that helps users explore, plan, and share their journeys — while also connecting with local guides for authentic experiences.",
+      "homepage": null,
+      "language": null,
+      "stars": 0,
+      "pushed_at": "2025-09-14T05:04:48Z"
+    }
+  ]
+}
