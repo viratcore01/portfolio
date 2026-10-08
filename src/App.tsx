@@ -5,6 +5,7 @@ import { About } from './components/About';
 import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 import { GitHubStats } from './components/GitHubStats';
+import { LeetCode } from './components/LeetCode';
 import { AISection } from './components/AISection';
 import { Experience } from './components/Experience';
 import { Contact } from './components/Contact';
@@ -58,6 +59,7 @@ function App() {
           <Skills />
           <Projects />
           <GitHubStats />
+          <LeetCode />
           <AISection />
           <Experience />
           <Contact />

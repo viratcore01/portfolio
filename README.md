@@ -30,7 +30,7 @@ Last synced: 2026-10-08
 | [Echo Vault](https://github.com/viratcore01/EchoVault) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 1mo ago | [Code](https://github.com/viratcore01/EchoVault) · [Live](https://echo-vault-three.vercel.app) |
 | [Virasat](https://github.com/viratcore01/virasat) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 2mo ago | [Code](https://github.com/viratcore01/virasat) · [Live](https://virasat-theta.vercel.app) |
 | [Dummy Browser](https://github.com/viratcore01/dummy-browser) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 2mo ago | [Code](https://github.com/viratcore01/dummy-browser) · [Live](https://dummy-browser.vercel.app) |
-| [Portfolio](https://github.com/viratcore01/portfolio) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 1m ago | [Code](https://github.com/viratcore01/portfolio) · [Live](https://portfolio-delta-peach-12.vercel.app) |
+| [Portfolio](https://github.com/viratcore01/portfolio) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 9m ago | [Code](https://github.com/viratcore01/portfolio) · [Live](https://portfolio-delta-peach-12.vercel.app) |
 | [Handson](https://github.com/viratcore01/handson) | Shipped & live — see repo for details. | `JavaScript` | ⭐ 0 | Updated 1mo ago | [Code](https://github.com/viratcore01/handson) |
 | [Handwriting](https://github.com/viratcore01/handwriting-) | Shipped & live — see repo for details. | `JavaScript` | ⭐ 1 | Updated 1mo ago | [Code](https://github.com/viratcore01/handwriting-) · [Live](https://handwriting-green.vercel.app) |
 | [Fakenews](https://github.com/viratcore01/fakenews) | Shipped & live — see repo for details. | `Python` | ⭐ 0 | Updated 2mo ago | [Code](https://github.com/viratcore01/fakenews) · [Live](https://fakenews-teal.vercel.app) |
@@ -49,6 +49,17 @@ Last synced: 2026-10-08
 > 🔄 Auto-synced from [github.com/viratcore01](https://github.com/viratcore01) on 2026-10-08. New repos appear here automatically via GitHub Actions.
 <!-- PROJECTS:END -->
 
+## 🧩 LeetCode (auto-synced)
+
+<!-- LEETCODE:START -->
+<!-- auto-generated: 2026-10-08 — source: leetcode.com/u/viratcore_01. Do not edit by hand. -->
+| Solved | Easy | Medium | Hard | Streak | Active days | Top language |
+|---|---|---|---|---|---|---|
+| **14** | 4 | 10 | 0 | 🔥 2 days | 7 days | `C++` |
+
+> 🔄 Synced from [leetcode.com/u/viratcore_01](https://leetcode.com/u/viratcore_01) on 2026-10-08. Refreshed daily.
+<!-- LEETCODE:END -->
+
 ## ✨ What's inside
 
 - **Live project sync** — `src/lib/github.ts` + `src/hooks/useGitHub.ts` fetch `api.github.com/users/viratcore01/repos` at runtime (1h localStorage cache, stale-while-revalidate). Search, language filter, sort, pinned-first ordering, stars/forks/live badges.
@@ -61,6 +72,7 @@ Last synced: 2026-10-08
 | Surface | Mechanism | Action needed |
 |---|---|---|
 | **Website Projects** | Runtime `fetch()` to GitHub API, no rebuild | Nothing — push a repo, it appears |
+| **Website LeetCode** | Daily snapshot (`public/leetcode.snapshot.json`) + best-effort live refresh | Nothing — solve problems, numbers follow |
 | **Portfolio README** (this file) | `node scripts/update-readme.mjs` via `.github/workflows/update-readme.yml` (daily 06:00 UTC + on push + manual) | Push this repo to GitHub once |
 | **Profile README** (`viratcore01/viratcore01`) | Copy `PROFILE-README.md` + `PROFILE-WORKFLOW.yml` into that repo | One-time 2-minute setup (steps in `PROFILE-README.md`) |
 
@@ -86,7 +98,9 @@ src/config/site.ts          ← edit pins, excludes, curated cards here
 src/lib/github.ts           ← fetch, cache, ordering, language colors
 src/hooks/useGitHub.ts      ← React bindings
 src/components/Projects.tsx ← live grid + search/filter/sort
+src/components/LeetCode.tsx ← at-a-glance coding profile (snapshot + live)
 scripts/update-readme.mjs   ← README + snapshot generator
+scripts/update-leetcode.mjs ← LeetCode snapshot generator
 .github/workflows/         ← daily auto-sync
 PROFILE-README.md           ← paste into viratcore01/viratcore01 repo
 ```

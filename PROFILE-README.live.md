@@ -29,7 +29,7 @@ Selected builds — my portfolio site reads this same list **live from the GitHu
 | [Echo Vault](https://github.com/viratcore01/EchoVault) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 1mo ago | [Code](https://github.com/viratcore01/EchoVault) · [Live](https://echo-vault-three.vercel.app) |
 | [Virasat](https://github.com/viratcore01/virasat) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 2mo ago | [Code](https://github.com/viratcore01/virasat) · [Live](https://virasat-theta.vercel.app) |
 | [Dummy Browser](https://github.com/viratcore01/dummy-browser) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 2mo ago | [Code](https://github.com/viratcore01/dummy-browser) · [Live](https://dummy-browser.vercel.app) |
-| [Portfolio](https://github.com/viratcore01/portfolio) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 1m ago | [Code](https://github.com/viratcore01/portfolio) · [Live](https://portfolio-delta-peach-12.vercel.app) |
+| [Portfolio](https://github.com/viratcore01/portfolio) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 9m ago | [Code](https://github.com/viratcore01/portfolio) · [Live](https://portfolio-delta-peach-12.vercel.app) |
 | [Handson](https://github.com/viratcore01/handson) | Shipped & live — see repo for details. | `JavaScript` | ⭐ 0 | Updated 1mo ago | [Code](https://github.com/viratcore01/handson) |
 | [Handwriting](https://github.com/viratcore01/handwriting-) | Shipped & live — see repo for details. | `JavaScript` | ⭐ 1 | Updated 1mo ago | [Code](https://github.com/viratcore01/handwriting-) · [Live](https://handwriting-green.vercel.app) |
 | [Fakenews](https://github.com/viratcore01/fakenews) | Shipped & live — see repo for details. | `Python` | ⭐ 0 | Updated 2mo ago | [Code](https://github.com/viratcore01/fakenews) · [Live](https://fakenews-teal.vercel.app) |
@@ -47,6 +47,17 @@ Selected builds — my portfolio site reads this same list **live from the GitHu
 
 > 🔄 Auto-synced from [github.com/viratcore01](https://github.com/viratcore01) on 2026-10-08. New repos appear here automatically via GitHub Actions.
 <!-- PROJECTS:END -->
+
+### 🧩 LeetCode — at a glance
+
+<!-- LEETCODE:START -->
+<!-- auto-generated: 2026-10-08 — source: leetcode.com/u/viratcore_01. Do not edit by hand. -->
+| Solved | Easy | Medium | Hard | Streak | Active days | Top language |
+|---|---|---|---|---|---|---|
+| **14** | 4 | 10 | 0 | 🔥 2 days | 7 days | `C++` |
+
+> 🔄 Synced from [leetcode.com/u/viratcore_01](https://leetcode.com/u/viratcore_01) on 2026-10-08. Refreshed daily.
+<!-- LEETCODE:END -->
 
 ### 🔁 How auto-update works (no placeholders, ever)
 1. **Portfolio website** fetches `api.github.com/users/viratcore01/repos` at runtime (1h cache) — push a repo → it shows up, no redeploy.

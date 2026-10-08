@@ -1,0 +1,63 @@
+{
+  "username": "viratcore_01",
+  "totalSolved": 14,
+  "easySolved": 4,
+  "mediumSolved": 10,
+  "hardSolved": 0,
+  "ranking": 5000001,
+  "reputation": 0,
+  "streak": 2,
+  "totalActiveDays": 7,
+  "topLanguages": [
+    {
+      "name": "C++",
+      "solved": 14
+    }
+  ],
+  "badges": 0,
+  "contestRating": null,
+  "contestsAttended": 0,
+  "recent": [
+    {
+      "title": "Longest Consecutive Sequence",
+      "titleSlug": "longest-consecutive-sequence",
+      "timestamp": 1791042235
+    },
+    {
+      "title": "Contains Duplicate",
+      "titleSlug": "contains-duplicate",
+      "timestamp": 1791042015
+    },
+    {
+      "title": "Container With Most Water",
+      "titleSlug": "container-with-most-water",
+      "timestamp": 1791041517
+    },
+    {
+      "title": "Longest Repeating Character Replacement",
+      "titleSlug": "longest-repeating-character-replacement",
+      "timestamp": 1791040847
+    },
+    {
+      "title": "3Sum",
+      "titleSlug": "3sum",
+      "timestamp": 1791040744
+    },
+    {
+      "title": "Valid Anagram",
+      "titleSlug": "valid-anagram",
+      "timestamp": 1791040547
+    },
+    {
+      "title": "Top K Frequent Elements",
+      "titleSlug": "top-k-frequent-elements",
+      "timestamp": 1791040424
+    },
+    {
+      "title": "Longest Consecutive Sequence",
+      "titleSlug": "longest-consecutive-sequence",
+      "timestamp": 1791040299
+    }
+  ],
+  "updated": "2026-10-08"
+}

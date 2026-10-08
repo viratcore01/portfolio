@@ -51,3 +51,33 @@ jobs:
           git add README.md
           git diff --cached --quiet || git commit -m "chore: auto-sync profile README [skip ci]"
           git push
+  leetcode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sync LeetCode block (no token needed)
+        run: |
+          node -e "
+          (async()=>{
+            const fs=await import('node:fs');
+            const q='query{matchedUser(username:\"viratcore_01\"){submitStatsGlobal{acSubmissionNum{difficulty count}}languageProblemCount{languageName problemsSolved}userCalendar{streak totalActiveDays}}}';
+            const r=await fetch('https://leetcode.com/graphql',{method:'POST',headers:{'Content-Type':'application/json','User-Agent':'Mozilla/5.0',Referer:'https://leetcode.com'},body:JSON.stringify({query:q})});
+            const {data}=await r.json();
+            const u=data.matchedUser;
+            const n=Object.fromEntries(u.submitStatsGlobal.acSubmissionNum.map(d=>[d.difficulty,d.count]));
+            const top=[...u.languageProblemCount].sort((a,b)=>b.problemsSolved-a.problemsSolved)[0];
+            const day=new Date().toISOString().slice(0,10);
+            const block='| Solved | Easy | Medium | Hard | Streak | Active days | Top language |\n|---|---|---|---|---|---|---|\n| **'+(n.All||0)+'** | '+(n.Easy||0)+' | '+(n.Medium||0)+' | '+(n.Hard||0)+' | 🔥 '+(u.userCalendar?.streak||0)+' days | '+(u.userCalendar?.totalActiveDays||0)+' days | \`'+(top?.languageName||'—')+'\` |\n\n> 🔄 Synced from [leetcode.com/u/viratcore_01](https://leetcode.com/u/viratcore_01) on '+day+'. Refreshed daily.';
+            let md=fs.readFileSync('README.md','utf8');
+            md=md.replace(/<!-- LEETCODE:START -->[\s\S]*?<!-- LEETCODE:END -->/, '<!-- LEETCODE:START -->\n'+block+'\n<!-- LEETCODE:END -->');
+            fs.writeFileSync('README.md',md);
+            console.log('leetcode block synced');
+          })();
+          "
+      - name: Commit if changed
+        run: |
+          git config user.name "readme-bot"
+          git config user.email "readme-bot@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: auto-sync leetcode block [skip ci]"
+          git push

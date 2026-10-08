@@ -8,7 +8,9 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "readme:sync": "node scripts/update-readme.mjs --profile"
+    "readme:sync": "node scripts/update-readme.mjs --profile",
+    "leetcode:sync": "node scripts/update-leetcode.mjs",
+    "sync": "node scripts/update-leetcode.mjs && node scripts/update-readme.mjs --profile"
   },
   "dependencies": {
     "@paper-design/shaders-react": "^0.0.76",

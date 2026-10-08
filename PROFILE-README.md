@@ -28,6 +28,17 @@ Selected builds — my portfolio site reads this same list **live from the GitHu
 > 🔄 Auto-synced from [github.com/viratcore01](https://github.com/viratcore01). New repos appear here automatically via GitHub Actions.
 <!-- PROJECTS:END -->
 
+### 🧩 LeetCode — at a glance
+
+<!-- LEETCODE:START -->
+<!-- auto-generated — do not edit by hand. -->
+| Solved | Easy | Medium | Hard | Streak | Active days | Top language |
+|---|---|---|---|---|---|---|
+| … | … | … | … | … | … | … |
+
+> 🔄 Synced from [leetcode.com/u/viratcore_01](https://leetcode.com/u/viratcore_01). Refreshed daily.
+<!-- LEETCODE:END -->
+
 ### 🔁 How auto-update works (no placeholders, ever)
 1. **Portfolio website** fetches `api.github.com/users/viratcore01/repos` at runtime (1h cache) — push a repo → it shows up, no redeploy.
 2. **This README** is rewritten daily by [`.github/workflows/update-readme.yml`](.github/workflows/update-readme.yml) running `node scripts/update-readme.mjs`.

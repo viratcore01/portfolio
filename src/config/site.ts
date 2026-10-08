@@ -14,6 +14,10 @@ export const SITE = {
     linkedin: 'https://www.linkedin.com/in/virat-shishodia-58349a367/',
     email: 'mailto:viratcore01@gmail.com',
     portfolio: 'https://viratcore01.vercel.app',
+    leetcode: 'https://leetcode.com/u/viratcore_01/',
+  },
+  leetcode: {
+    username: 'viratcore_01',
   },
   // Live GitHub sync settings — no rebuild needed when you push new repos.
   github: {

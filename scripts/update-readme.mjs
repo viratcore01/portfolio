@@ -90,15 +90,31 @@ const statsLine = `![Stats](https://github-readme-stats.vercel.app/api?username=
 
 📊 **${profile.public_repos}** public repos · **${stars}** stars · **${profile.followers}** followers · updated ${updated}`;
 
+// 2) LeetCode block (from public/leetcode.snapshot.json — refresh via `npm run leetcode:sync`)
+let leetLine = null;
+try {
+  const snap = JSON.parse(readFileSync('public/leetcode.snapshot.json', 'utf8'));
+  const top = snap.topLanguages?.[0]?.name ?? '—';
+  leetLine =
+    `<!-- auto-generated: ${snap.updated} — source: leetcode.com/u/viratcore_01. Do not edit by hand. -->\n` +
+    `| Solved | Easy | Medium | Hard | Streak | Active days | Top language |\n` +
+    `|---|---|---|---|---|---|---|\n` +
+    `| **${snap.totalSolved}** | ${snap.easySolved} | ${snap.mediumSolved} | ${snap.hardSolved} | 🔥 ${snap.streak} days | ${snap.totalActiveDays} days | \`${top}\` |\n` +
+    `\n> 🔄 Synced from [leetcode.com/u/viratcore_01](https://leetcode.com/u/viratcore_01) on ${snap.updated}. Refreshed daily.`;
+} catch {
+  console.warn('leetcode.snapshot.json missing — run `npm run leetcode:sync` first');
+}
+
 // 1) Portfolio README
 const readmePath = 'README.md';
 if (existsSync(readmePath)) {
   let md = readFileSync(readmePath, 'utf8');
   md = replaceBetween(md, '<!-- PROJECTS:START -->', '<!-- PROJECTS:END -->', table);
   md = replaceBetween(md, '<!-- STATS:START -->', '<!-- STATS:END -->', statsLine);
+  if (leetLine) md = replaceBetween(md, '<!-- LEETCODE:START -->', '<!-- LEETCODE:END -->', leetLine);
   md = md.replace(/Last synced: .*?(\n|$)/, `Last synced: ${updated}\n`);
   writeFileSync(readmePath, md);
-  console.log(`✓ README.md updated (${count} projects)`);
+  console.log(`✓ README.md updated (${count} projects${leetLine ? ' + leetcode' : ''})`);
 } else {
   console.warn('README.md not found — skipping');
 }
@@ -135,6 +151,7 @@ if (process.argv.includes('--profile')) {
   let out = tpl;
   out = replaceBetween(out, '<!-- PROJECTS:START -->', '<!-- PROJECTS:END -->', table);
   out = replaceBetween(out, '<!-- STATS:START -->', '<!-- STATS:END -->', statsLine);
+  if (leetLine) out = replaceBetween(out, '<!-- LEETCODE:START -->', '<!-- LEETCODE:END -->', leetLine);
   writeFileSync('PROFILE-README.live.md', out);
   console.log('✓ PROFILE-README.live.md preview written');
 }
