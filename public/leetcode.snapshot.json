@@ -1,23 +1,28 @@
 {
   "username": "viratcore_01",
-  "totalSolved": 14,
+  "totalSolved": 15,
   "easySolved": 4,
-  "mediumSolved": 10,
+  "mediumSolved": 11,
   "hardSolved": 0,
   "ranking": 5000001,
   "reputation": 0,
   "streak": 2,
-  "totalActiveDays": 7,
+  "totalActiveDays": 8,
   "topLanguages": [
     {
       "name": "C++",
-      "solved": 14
+      "solved": 15
     }
   ],
   "badges": 0,
   "contestRating": null,
   "contestsAttended": 0,
   "recent": [
+    {
+      "title": "Maximum Subarray",
+      "titleSlug": "maximum-subarray",
+      "timestamp": 1792303448
+    },
     {
       "title": "Longest Consecutive Sequence",
       "titleSlug": "longest-consecutive-sequence",
@@ -52,12 +57,7 @@
       "title": "Top K Frequent Elements",
       "titleSlug": "top-k-frequent-elements",
       "timestamp": 1791040424
-    },
-    {
-      "title": "Longest Consecutive Sequence",
-      "titleSlug": "longest-consecutive-sequence",
-      "timestamp": 1791040299
     }
   ],
-  "updated": "2026-10-17"
+  "updated": "2026-10-18"
 }
