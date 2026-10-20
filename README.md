@@ -6,7 +6,7 @@ Live, auto-updating portfolio for **Virat Shishodia** (MERN Stack & AI Full-Stac
 
 > **Zero placeholders.** Projects, stats and tables on this page **and** on the website sync automatically from the GitHub API. Push a new repo → it appears everywhere.
 
-Last synced: 2026-10-19
+Last synced: 2026-10-20
 
 ---
 
@@ -15,24 +15,25 @@ Last synced: 2026-10-19
 <!-- STATS:START -->
 ![Stats](https://github-readme-stats.vercel.app/api?username=viratcore01&show_icons=true&theme=transparent&hide_border=true) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=viratcore01&layout=compact&theme=transparent&hide_border=true) ![Streak](https://streak-stats.demolab.com?user=viratcore01&theme=transparent&hide_border=true)
 
-📊 **24** public repos · **1** stars · **3** followers · updated 2026-10-19
+📊 **25** public repos · **1** stars · **3** followers · updated 2026-10-20
 <!-- STATS:END -->
 
 ## 🚀 Projects (auto-synced)
 
 <!-- PROJECTS:START -->
-<!-- auto-generated: 2026-10-19 — 23 repos, 1 stars, 3 followers. Do not edit by hand; run `npm run readme:sync`. -->
+<!-- auto-generated: 2026-10-20 — 24 repos, 1 stars, 3 followers. Do not edit by hand; run `npm run readme:sync`. -->
 | Project | What it is | Stack | Stars | Activity | Links |
 |---|---|---|---|---|---|
-| [Ghar Yaad](https://github.com/viratcore01/GharYaad) | Shipped & live — see repo for details. | `JavaScript` | ⭐ 0 | Updated 15d ago | [Code](https://github.com/viratcore01/GharYaad) · [Live](https://gharyaad.vercel.app) |
+| [Ghar Yaad](https://github.com/viratcore01/GharYaad) | Shipped & live — see repo for details. | `JavaScript` | ⭐ 0 | Updated 16d ago | [Code](https://github.com/viratcore01/GharYaad) · [Live](https://gharyaad.vercel.app) |
 | [DAM](https://github.com/viratcore01/DAM) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 1mo ago | [Code](https://github.com/viratcore01/DAM) · [Live](https://dam-weld.vercel.app) |
 | [STOIC SAP](https://github.com/viratcore01/STOIC_SAP) | Shipped & live — see repo for details. | `Python` | ⭐ 0 | Updated 1mo ago | [Code](https://github.com/viratcore01/STOIC_SAP) |
 | [Echo Vault](https://github.com/viratcore01/EchoVault) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 2mo ago | [Code](https://github.com/viratcore01/EchoVault) · [Live](https://echo-vault-three.vercel.app) |
 | [Virasat](https://github.com/viratcore01/virasat) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 2mo ago | [Code](https://github.com/viratcore01/virasat) · [Live](https://virasat-theta.vercel.app) |
 | [Dummy Browser](https://github.com/viratcore01/dummy-browser) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 3mo ago | [Code](https://github.com/viratcore01/dummy-browser) · [Live](https://dummy-browser.vercel.app) |
-| [Patient](https://github.com/viratcore01/patient) | Shipped & live — see repo for details. | `JavaScript` | ⭐ 0 | Updated 28m ago | [Code](https://github.com/viratcore01/patient) · [Live](https://patient-beta-lake.vercel.app) |
-| [Portfolio](https://github.com/viratcore01/portfolio) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 1d ago | [Code](https://github.com/viratcore01/portfolio) · [Live](https://portfolio-delta-peach-12.vercel.app) |
-| [Idkitworks](https://github.com/viratcore01/idkitworks) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 19d ago | [Code](https://github.com/viratcore01/idkitworks) · [Live](https://idkitworks.vercel.app) |
+| [Clinic](https://github.com/viratcore01/clinic) | Shipped & live — see repo for details. | `HTML` | ⭐ 0 | Updated 12h ago | [Code](https://github.com/viratcore01/clinic) · [Live](https://clinic-ochre-seven.vercel.app) |
+| [Patient](https://github.com/viratcore01/patient) | Shipped & live — see repo for details. | `JavaScript` | ⭐ 0 | Updated 13h ago | [Code](https://github.com/viratcore01/patient) · [Live](https://patient-beta-lake.vercel.app) |
+| [Portfolio](https://github.com/viratcore01/portfolio) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 22h ago | [Code](https://github.com/viratcore01/portfolio) · [Live](https://portfolio-delta-peach-12.vercel.app) |
+| [Idkitworks](https://github.com/viratcore01/idkitworks) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 20d ago | [Code](https://github.com/viratcore01/idkitworks) · [Live](https://idkitworks.vercel.app) |
 | [Handson](https://github.com/viratcore01/handson) | Shipped & live — see repo for details. | `JavaScript` | ⭐ 0 | Updated 1mo ago | [Code](https://github.com/viratcore01/handson) |
 | [Handwriting](https://github.com/viratcore01/handwriting-) | Shipped & live — see repo for details. | `JavaScript` | ⭐ 1 | Updated 1mo ago | [Code](https://github.com/viratcore01/handwriting-) · [Live](https://handwriting-green.vercel.app) |
 | [Fakenews](https://github.com/viratcore01/fakenews) | Shipped & live — see repo for details. | `Python` | ⭐ 0 | Updated 3mo ago | [Code](https://github.com/viratcore01/fakenews) · [Live](https://fakenews-teal.vercel.app) |
@@ -45,21 +46,21 @@ Last synced: 2026-10-19
 | [Energy Marketplace](https://github.com/viratcore01/Energy-marketplace) | Shipped & live — see repo for details. | `JavaScript` | ⭐ 0 | Updated 7mo ago | [Code](https://github.com/viratcore01/Energy-marketplace) |
 | [Apex Velocity](https://github.com/viratcore01/ApexVelocity) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 7mo ago | [Code](https://github.com/viratcore01/ApexVelocity) · [Live](https://hh-ten-iota.vercel.app) |
 | [Madiral](https://github.com/viratcore01/madiral) | Shipped & live — see repo for details. | `TypeScript` | ⭐ 0 | Updated 9mo ago | [Code](https://github.com/viratcore01/madiral) · [Live](https://madiral.vercel.app) |
-| [Comla](https://github.com/viratcore01/comla) | Shipped & live — see repo for details. | `JavaScript` | ⭐ 0 | Updated 11mo ago | [Code](https://github.com/viratcore01/comla) · [Live](https://comla.vercel.app) |
+| [Comla](https://github.com/viratcore01/comla) | Shipped & live — see repo for details. | `JavaScript` | ⭐ 0 | Updated 1y ago | [Code](https://github.com/viratcore01/comla) · [Live](https://comla.vercel.app) |
 | [Unrevel](https://github.com/viratcore01/Unrevel) | A modern travel companion app that helps users explore, plan, and share their journeys — while also connecting with local guides for authent | | ⭐ 0 | Updated 1y ago | [Code](https://github.com/viratcore01/Unrevel) |
 
-> 🔄 Auto-synced from [github.com/viratcore01](https://github.com/viratcore01) on 2026-10-19. New repos appear here automatically via GitHub Actions.
+> 🔄 Auto-synced from [github.com/viratcore01](https://github.com/viratcore01) on 2026-10-20. New repos appear here automatically via GitHub Actions.
 <!-- PROJECTS:END -->
 
 ## 🧩 LeetCode (auto-synced)
 
 <!-- LEETCODE:START -->
-<!-- auto-generated: 2026-10-19 — source: leetcode.com/u/viratcore_01. Do not edit by hand. -->
+<!-- auto-generated: 2026-10-20 — source: leetcode.com/u/viratcore_01. Do not edit by hand. -->
 | Solved | Easy | Medium | Hard | Streak | Active days | Top language |
 |---|---|---|---|---|---|---|
 | **15** | 4 | 11 | 0 | 🔥 2 days | 8 days | `C++` |
 
-> 🔄 Synced from [leetcode.com/u/viratcore_01](https://leetcode.com/u/viratcore_01) on 2026-10-19. Refreshed daily.
+> 🔄 Synced from [leetcode.com/u/viratcore_01](https://leetcode.com/u/viratcore_01) on 2026-10-20. Refreshed daily.
 <!-- LEETCODE:END -->
 
 ## ✨ What's inside
