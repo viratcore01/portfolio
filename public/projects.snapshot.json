@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "username": "viratcore01",
   "stats": {
     "repos": 25,
@@ -7,6 +7,15 @@
     "followers": 3
   },
   "projects": [
+    {
+      "name": "portfolio",
+      "url": "https://github.com/viratcore01/portfolio",
+      "description": null,
+      "homepage": "https://portfolio-delta-peach-12.vercel.app",
+      "language": "TypeScript",
+      "stars": 0,
+      "pushed_at": "2026-10-20T11:14:28Z"
+    },
     {
       "name": "clinic",
       "url": "https://github.com/viratcore01/clinic",
@@ -24,15 +33,6 @@
       "language": "JavaScript",
       "stars": 0,
       "pushed_at": "2026-10-19T21:36:48Z"
-    },
-    {
-      "name": "portfolio",
-      "url": "https://github.com/viratcore01/portfolio",
-      "description": null,
-      "homepage": "https://portfolio-delta-peach-12.vercel.app",
-      "language": "TypeScript",
-      "stars": 0,
-      "pushed_at": "2026-10-19T12:43:20Z"
     },
     {
       "name": "idkitworks",
