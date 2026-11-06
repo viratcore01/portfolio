@@ -1,12 +1,30 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "username": "viratcore01",
   "stats": {
-    "repos": 26,
+    "repos": 27,
     "stars": 1,
     "followers": 3
   },
   "projects": [
+    {
+      "name": "Global",
+      "url": "https://github.com/viratcore01/Global",
+      "description": null,
+      "homepage": null,
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2026-11-06T10:08:58Z"
+    },
+    {
+      "name": "GharYaad",
+      "url": "https://github.com/viratcore01/GharYaad",
+      "description": null,
+      "homepage": "https://gharyaad.vercel.app",
+      "language": "JavaScript",
+      "stars": 0,
+      "pushed_at": "2026-11-06T10:01:21Z"
+    },
     {
       "name": "portfolio",
       "url": "https://github.com/viratcore01/portfolio",
@@ -14,7 +32,7 @@
       "homepage": "https://portfolio-delta-peach-12.vercel.app",
       "language": "TypeScript",
       "stars": 0,
-      "pushed_at": "2026-11-04T14:06:59Z"
+      "pushed_at": "2026-11-05T14:25:57Z"
     },
     {
       "name": "Pocket-Gyan",
@@ -51,15 +69,6 @@
       "language": "TypeScript",
       "stars": 0,
       "pushed_at": "2026-09-29T17:13:20Z"
-    },
-    {
-      "name": "GharYaad",
-      "url": "https://github.com/viratcore01/GharYaad",
-      "description": null,
-      "homepage": "https://gharyaad.vercel.app",
-      "language": "JavaScript",
-      "stars": 0,
-      "pushed_at": "2026-10-04T07:50:10Z"
     },
     {
       "name": "DAM",
