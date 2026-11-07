@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "username": "viratcore01",
   "stats": {
     "repos": 27,
@@ -7,6 +7,15 @@
     "followers": 3
   },
   "projects": [
+    {
+      "name": "portfolio",
+      "url": "https://github.com/viratcore01/portfolio",
+      "description": null,
+      "homepage": "https://portfolio-delta-peach-12.vercel.app",
+      "language": "TypeScript",
+      "stars": 0,
+      "pushed_at": "2026-11-06T14:00:41Z"
+    },
     {
       "name": "Global",
       "url": "https://github.com/viratcore01/Global",
@@ -24,15 +33,6 @@
       "language": "JavaScript",
       "stars": 0,
       "pushed_at": "2026-11-06T10:01:21Z"
-    },
-    {
-      "name": "portfolio",
-      "url": "https://github.com/viratcore01/portfolio",
-      "description": null,
-      "homepage": "https://portfolio-delta-peach-12.vercel.app",
-      "language": "TypeScript",
-      "stars": 0,
-      "pushed_at": "2026-11-05T14:25:57Z"
     },
     {
       "name": "Pocket-Gyan",
