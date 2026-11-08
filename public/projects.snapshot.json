@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "username": "viratcore01",
   "stats": {
     "repos": 27,
@@ -8,22 +8,22 @@
   },
   "projects": [
     {
-      "name": "portfolio",
-      "url": "https://github.com/viratcore01/portfolio",
-      "description": null,
-      "homepage": "https://portfolio-delta-peach-12.vercel.app",
-      "language": "TypeScript",
-      "stars": 0,
-      "pushed_at": "2026-11-06T14:00:41Z"
-    },
-    {
       "name": "Global",
       "url": "https://github.com/viratcore01/Global",
       "description": null,
       "homepage": null,
       "language": "Python",
       "stars": 0,
-      "pushed_at": "2026-11-06T10:08:58Z"
+      "pushed_at": "2026-11-08T10:20:50Z"
+    },
+    {
+      "name": "portfolio",
+      "url": "https://github.com/viratcore01/portfolio",
+      "description": null,
+      "homepage": "https://portfolio-delta-peach-12.vercel.app",
+      "language": "TypeScript",
+      "stars": 0,
+      "pushed_at": "2026-11-07T12:44:45Z"
     },
     {
       "name": "GharYaad",
